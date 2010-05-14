@@ -3,14 +3,15 @@
 Open Flash Chart, is open source. It is free to use and you get the source code to fiddle with!
 
   http://teethgrinder.co.uk/open-flash-chart/
+  http://pullmonkey.com
 
 == Install (Rails 3)
-
-  rails plugin install git://github.com/galetahub/open_flash_chart.git
 
 It's install plugin and copy files "open-flash-chart.swf", "open-flash-chart-bar-clicking.swf" to your project 
 public folder and "swfobject.js" to public/javascripts.
 Your can move *.swf file to public/swf folder and pass option :base_path => '/swf/'.
+
+  rails plugin install git://github.com/galetahub/open_flash_chart.git
 
 == Quick Start
 In your controller:
