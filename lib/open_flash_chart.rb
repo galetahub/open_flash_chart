@@ -49,5 +49,4 @@ require 'open_flash_chart/menu'
 require 'open_flash_chart/sugar'
 require 'open_flash_chart/tags'
 
-require 'open_flash_chart/ofc_ajax'
-require 'open_flash_chart/open_flash_chart_object'
+require 'open_flash_chart/graph'

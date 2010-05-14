@@ -46,8 +46,8 @@ module OpenFlashChart
       end
     end
 
-    def to_json2
-      self.instance_values.to_json
+    def to_json2(options = nil)
+      ActiveSupport::JSON.encode(self.instance_values, options)
     end    
 
     alias_method :to_s, :render
